@@ -19,12 +19,12 @@ Lista de Dispositivos:
 
 Bibliotecas:
 
-Arduino JSON: https://github.com/bblanchon/ArduinoJson
-Liquid Crystal para ESP8266: https://github.com/esp8266/Basic/tree/master/libraries/LiquidCrystal
+- Arduino JSON: https://github.com/bblanchon/ArduinoJson
+- Liquid Crystal para ESP8266: https://github.com/esp8266/Basic/tree/master/libraries/LiquidCrystal
  
 Instalação do drive da Wemos D1 mini no Arduino:
 
-Adicione este link nas preferências: http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json
+- Adicione este link nas preferências: http://arduino.esp8266.com/versions/2.3.0/package_esp8266com_index.json
 
 Opcionais:
 
