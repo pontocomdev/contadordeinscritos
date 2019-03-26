@@ -107,15 +107,15 @@ byte LMB[8] =
   B11111
 };
 
-const char* ssid     = "SSID";       // NOME DO WIFI
-const char* password = "PASSWORD";   // SENHA DO WIFI
-String apiKey = "YOURAPIKEY";            // YouTube API v3 (GERE A CHAVE NESTE LINK): https://console.developers.google.com
-String channelId = "UCxqx59koIGfGRRGeEm5qzjQ";   // ID DO CANAL DO YOUTUBE
+const char* ssid     = "";       // NOME DO WIFI
+const char* password = "";   // SENHA DO WIFI
+String apiKey = "";            // YouTube API v3 (GERE A CHAVE NESTE LINK): https://console.developers.google.com
+String channelId = "UCQjVM9M1rvPjiidoqTQ0z8g";   // ID DO CANAL DO YOUTUBE
 
 const char *host = "www.googleapis.com";
 long subscribers,subscribersBefore = 0;
 
-LiquidCrystal_I2C lcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // DEFINA O ENDEREÇO DO LCD I2C
+LiquidCrystal_I2C lcd(0x3F, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE);  // DEFINA O ENDEREÇO DO LCD I2C - Use o Arquivo de Teste LCD para saber qual é a porta correta
 
 void setup()  
 {
