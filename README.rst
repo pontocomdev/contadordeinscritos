@@ -1,21 +1,23 @@
 
 
 ###################
-Contador de Inscritos do Youtube em Tempo Real com Arduino ESP8266 (DIY)
+Faça sua Placa Contadora de Inscritos do Youtube em Tempo Real com Arduino Wemos ESP8266 (DIY)
 ###################
 
 Neste vídeo vamos criar uma placa contadora de inscritos do Youtube um ótimo Gadget para quem tem um canal e deseja ficar motivado com seu crescimento.
 
 *******************
-Link com instruções em vídeo: 
+Link com instruções em vídeo: https://youtu.be/etRQlDA965I
 *******************
 
 Lista de Dispositivos:
 
 - 1 Wemos D1 Mini;
 - 1 Display 20×4 LCD I2C;
-- 1 Protoboard para Testes;
-- Jumpers;
+- 1 Protoboard para Testes; (Opcional)
+- 4 Jumpers;
+- 1 Cabo USB/Micro USB (para enviar o código para a Placa).
+- 1 PowerBank (Caso queira usar o dispositivo sem um carregador de celular).
 
 Bibliotecas:
 
